@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(26, 46, 71);
+}
+#casa{
+    background-color: aliceblue;
+    width: 450px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+input{
+    width: 440px;
+    height: 40px;
+    margin: 1px;
+    background-color: rgb(184, 160, 206);
+    color: rgb(49, 82, 83);
+    font-size: x-large;
+}
+input:focus{
+    outline: none;
+}
+.num{
+    display: flex;
+    background-color: rgb(113, 113, 151);
+    width: 100px;
+    height: 60px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+#numeros{
+    display:grid;
+    grid-template-columns: repeat( 4, 1fr);
+    background-color: rgb(73, 76, 85);
+    width: 435px;
+    margin-right: 100px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+.num:hover{
+    background-color: rgb(51, 54, 58);;
+}
+.op{
+     display: flex;
+    background-color: rgb(113, 113, 151);
+    width: 100px;
+    height: 60px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.op:hover{
+    background-color: rgb(51, 54, 58);;
+}

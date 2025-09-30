@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*
+    em html e id = em css e #
+    em html e class = em css e .
+*/
+
+
+body{
+    background-color: rgb(97, 133, 121);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+h1{
+    color:rgb(197, 183, 151) ;
+}
+h2{
+    color: rgb(63, 33, 33);
+}
+h1#principal{
+    text-align: center;
+    background-color: bisque;
+    color: rgb(146, 136, 113) ;
+    width: 500px;
+    margin: auto;
+}
+.basico{
+    background-color: rgb(104, 72, 72);
+    width: 170px;
+    text-align: center;
+    
+   
+}
+.intermediario{
+    background-color: rgb(59, 54, 54) ;
+    width: 300px;
+    text-align: center;
+    
+       
+}
+.avançado{
+    background-color:rgb(138, 131, 131) ;
+    width: 250px;
+    text-align: center;
+}
+.destaque{
+    background-color: rgba(167, 142, 81, 0.788);
+}

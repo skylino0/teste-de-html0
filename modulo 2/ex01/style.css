@@ -1,0 +1,36 @@
+ @charset "UTF-8";
+ @font-face {
+            font-family:harukaze;
+            src: url(../fonte/Harukaze.ttf)format(truetype),url(../fonte/Harukaze.otf) format(opentype);
+            font-weight: normal;
+            font-style: normal;
+}
+*{
+    /*height: 100%;*/
+    font-family:harukaze;
+}
+
+body{
+    background-image:linear-gradient(to bottom,#79717A,#4B4952);
+    font-size: 1.5em;
+    
+}
+main{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 600px; ;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 5px 5px 15px#4a4d579f
+}
+p{
+    text-align: justify;
+}
+h1{
+    color:#004F4D ;
+    text-align: center;
+    text-shadow: 1px 1px  0px #4b495294;
+}
+h2{
+    color: #A68F97;
+}
